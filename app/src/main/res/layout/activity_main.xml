@@ -37,13 +37,13 @@
 
         <Button
             android:id="@+id/done_button"
-            style="@style/name_style"
+            style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:backgroundTint="@color/teal_200"
-            android:text="@string/done"
-            android:textColor="@color/white" />
+            android:layout_marginTop="@dimen/layout_margin"
+            android:fontFamily="@font/roboto"
+            android:text="@string/done" />
 
         <TextView
             android:id="@+id/nickname_text"
